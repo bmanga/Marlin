@@ -1,3 +1,5 @@
+Marlin firmware configured and customized for HICTOP 3DP-11 by darryln 
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
