@@ -354,10 +354,15 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
+  // HICTOP 3DP-11 - darryln 3/3/2018
+  #define  DEFAULT_Kp 24.8
+  #define  DEFAULT_Ki 1.67
+  #define  DEFAULT_Kd 92.03
+
   // HICTOP 3DP-11
-  #define  DEFAULT_Kp 12.19
-  #define  DEFAULT_Ki 0.50
-  #define  DEFAULT_Kd 74.60
+  //#define  DEFAULT_Kp 12.19
+  //#define  DEFAULT_Ki 0.50
+  //#define  DEFAULT_Kd 74.60
 
   // Ultimaker
   //#define  DEFAULT_Kp 22.2
@@ -449,7 +454,7 @@
  */
 
 #define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
-#define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
+//#define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
 
 //===========================================================================
 //============================= Mechanical Settings =========================
@@ -1157,7 +1162,7 @@
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 //ABS
-#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_TEMP_HOTEND 230
 #define PREHEAT_2_TEMP_BED    100
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
