@@ -800,7 +800,6 @@
 #define X_MAX_POS 220
 #define Y_MAX_POS 270
 #define Z_MAX_POS 185
-<<<<<<< HEAD
 
 /**
  * Software Endstops
@@ -810,8 +809,6 @@
  * - X and Y only apply to Cartesian robots.
  * - Use 'M211' to set software endstops on/off or report current state
  */
-=======
->>>>>>> origin/darryln-3DP-11-custom
 
 // Min software endstops curtail movement below minimum coordinate bounds
 #define MIN_SOFTWARE_ENDSTOPS
